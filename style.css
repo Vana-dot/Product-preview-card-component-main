@@ -80,7 +80,7 @@ button:hover{
     background: #1a4031;
 }
 
-@media (min-width: 375px) and (max-width:755px){
+@media (min-width: 300px) and (max-width:755px){
      .container{
         margin: 20px;
      }
