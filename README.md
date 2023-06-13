@@ -9,13 +9,13 @@ Projeto de um desafio do frontend mentor
 
 ### Versão desktop
 
-![versão desk do projeto](./images/img-version-desk.png)
+![versão desk do projeto](./assets/images/img-version-desk.png)
 
 ### Versão mobile
 
-![Versão mobile do projeto](./images/img-version-mobile.png)
+![Versão mobile do projeto](./assets/images/img-version-mobile.png)
 
 
 ### Com efeito
 
-![Versão mobile do projeto](./images/active-project.png)
+![Versão mobile do projeto](./assets/images/active-project.png)
