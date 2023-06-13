@@ -45,9 +45,11 @@ body{
     font-family: 'Fraunces', serif;
     font-weight: 700;
 }
-
-.image-product{
+.images{
     width: 100%;
+}
+.image-product{
+    width:100%;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
