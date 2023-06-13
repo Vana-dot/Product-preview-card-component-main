@@ -1,0 +1,101 @@
+body{
+    box-sizing: border-box;
+    background: #F2EBE3;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    display: grid;
+    place-items: center;
+    margin-top: 10rem;
+}
+.image-mobile{
+    display:none;
+}
+.perfumer-product{
+    display: flex;
+    border-radius: 10px;
+    width: 800px;
+    background:  #fff;
+}
+
+.perfumer-info{
+    width: 100%;
+    padding: 3rem 2rem 2rem 2rem;
+    color: #6C7289
+}
+.text-perfu{
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+}
+.perfumer-info h1{
+    color: #1C232B;
+    font-size:3rem;
+    
+}
+.preco{
+    font-size: 32px;
+    color: #3C8067;
+}
+.perfumer-info h1,.preco{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+}
+
+.image-product{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+button{
+    background: #3C8067;
+    border-radius: 20px;
+
+    font-size: 16px;
+    font-weight:700;
+
+
+    color: #fff;
+    width: 80%;
+    padding:20px;
+    margin-top: 20px;
+}
+
+button img{
+    vertical-align: middle;
+    padding-right:9px;
+}
+
+button:hover{
+    background: #1a4031;
+}
+
+@media (min-width: 375px) and (max-width:755px){
+     .container{
+        margin: 20px;
+     }
+     .image-product{
+        display: none;
+     }
+     .image-mobile{
+        display:flex;
+        width: 100%;
+     }
+     .perfumer-product{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .perfumer-info h1{
+        font-size: 32px;
+    }
+    .perfumer-info p, .perfumer-info h1{
+        max-width: 80%;
+    }
+
+}
