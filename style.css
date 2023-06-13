@@ -17,7 +17,8 @@ body{
 .perfumer-product{
     display: flex;
     border-radius: 10px;
-    width: 800px;
+    width: 100%;
+    max-width: 800px;
     background:  #fff;
 }
 
@@ -45,9 +46,13 @@ body{
     font-family: 'Fraunces', serif;
     font-weight: 700;
 }
-
+.images{
+    width: 100%;
+    display: flex;
+}
 .image-product{
     width:100%;
+    object-fit: cover;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
